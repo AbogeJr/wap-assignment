@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+      <a href="./index.html"><h1 class="logo">AJ-Lib</h1></a>
+      <nav class="navigation">
+        <ul class="nav-items">
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="about.html">About</a></li>
+          <li class="nav-item"><a href="catalogue.html">Catalogue</a></li>
+          <li class="nav-item"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="form-section">
+      <h2>Get in touch!</h2>
+      <p>
+        Send us an email and one of our representatives will get back to you
+        within 24 hours
+      </p>
+      <div class="form-container">
+        <form action="./index.html" method="post">
+          <label for="email">Email address:</label><br />
+          <input
+            name="email"
+            id="email"
+            type="email"
+            class="input-box"
+            placeholder="example@domain.com"
+          /><br />
+          <label for="email">Full name:</label><br />
+          <input
+            type="text"
+            id="name"
+            class="input-box"
+            name="name"
+            placeholder="Enter your name here"
+          /><br />
+          <label for="email">Message:</label><br />
+          <textarea
+            class="input-box"
+            name="mesage"
+            id="message"
+            maxlength="350"
+          ></textarea
+          ><br />
+          <input type="submit" class="submit-btn" value="Send" />
+        </form>
+      </div>
+    </section>
+    <footer>Aboge &copy; 2022</footer>
+  </body>
+</html>

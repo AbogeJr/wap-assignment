@@ -1,0 +1,143 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  width: 80%;
+  margin: auto;
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.nav-items {
+  display: flex;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.nav-item {
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+  /* margin: 5px; */
+}
+
+.logo {
+  color: orangered;
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+
+a {
+  text-decoration: none;
+  color: orangered;
+  font-weight: bold;
+}
+a:visited {
+  color: red;
+}
+
+section {
+  font-weight: 300;
+}
+.bookshelf {
+  /* width: 80%; */
+  height: 500px;
+  margin: auto;
+  background-image: url("./bookshelf.jpg");
+}
+.reader {
+  height: 400px;
+  margin: auto;
+  background-image: url("./reader.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+footer {
+  font-weight: 200;
+  /* border: 1px solid red; */
+  padding: 10px;
+  margin: 10px;
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* width: 100%; */
+  text-align: center;
+}
+.catalogue {
+  height: 500px;
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  column-gap: 5px;
+  row-gap: 5px;
+  padding: 10px;
+}
+.book {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 5px;
+}
+.book-1 {
+  background-image: url("./48laws.jpeg");
+}
+.book-2 {
+  background-image: url("./alchemist.jpeg");
+}
+.book-3 {
+  background-image: url("./atomic.jpeg");
+}
+.book-4 {
+  background-image: url("./outliers.jpeg");
+}
+.book-5 {
+  background-image: url("./money.jpeg");
+}
+.book-6 {
+  background-image: url("./sapiens.jpg");
+}
+.form-section {
+  margin-top: 10px;
+  border-bottom: 1px solid black;
+}
+.form-container {
+  width: 75%;
+}
+form {
+  box-sizing: border-box;
+  /* width: 100%; */
+  /* padding: 10px; */
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+}
+.input-box {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid orangered;
+}
+
+.submit-btn {
+  padding: 7px 10px;
+  width: 100px;
+  margin: auto;
+  border: 1px solid orangered;
+  color: orangered;
+  border-radius: 5%;
+  background-color: transparent;
+  cursor: pointer;
+}
