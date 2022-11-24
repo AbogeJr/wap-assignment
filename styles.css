@@ -193,3 +193,8 @@ form {
 .comment {
   text-align: center;
 }
+
+h2 {
+  border-left: 2px solid orangered;
+  padding-left: 10px;
+}
