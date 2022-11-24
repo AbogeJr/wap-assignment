@@ -1,5 +1,3 @@
-// const name = prompt("Hello");
-// console.log("Hello");
 const menu_btn = document.getElementById("menu-btn");
 const menu = document.getElementById("menu");
 
