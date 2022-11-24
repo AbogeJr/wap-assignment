@@ -210,7 +210,10 @@ h2 {
   left: 50px;
   padding: 0px 20px;
   background-color: white;
-  display: none;
+  /* display: none; */
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 1s linear;
 }
 
 #menu-btn {
@@ -230,5 +233,11 @@ h2 {
 }
 
 .show {
-  display: block;
+  /* display: block; */
+  visibility: visible;
+  opacity: 1;
+}
+
+.close {
+  font-size: 26px;
 }
