@@ -204,12 +204,11 @@ h2 {
 }
 
 .sidebar {
-  position: absolute;
+  position: fixed;
   width: 50%;
   height: 100vh;
-  left: 0;
+  left: 50px;
   padding: 0px 20px;
-  /* border: 1px solid red; */
   background-color: white;
   display: none;
 }
