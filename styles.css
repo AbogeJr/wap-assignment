@@ -59,6 +59,7 @@ section {
   background-image: url("./bookshelf.jpg");
 }
 .reader {
+  width: 80%;
   height: 400px;
   margin: auto;
   background-image: url("./reader-2.jpg");
@@ -176,10 +177,10 @@ form {
 
 .test {
   display: flex;
-  width: 300px;
+  width: 250px;
   flex-direction: column;
   align-items: center;
-  margin: 0px 10px;
+  margin: 10px;
   border-bottom: 1px solid rgba(100, 100, 100, 0.5);
 }
 
